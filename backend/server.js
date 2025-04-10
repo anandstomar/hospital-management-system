@@ -12,7 +12,7 @@ const doctorsPatientsRoutes = require("./router/doctor&patients")
 
 app.use(
     cors({
-        origin: ["http://localhost:5173","https://hospital-management-system-one-zeta.vercel.app/"], 
+        origin: ["http://localhost:5173","https://hospital-management-system-one-zeta.vercel.app"], 
         credentials: true,
     })
 );
