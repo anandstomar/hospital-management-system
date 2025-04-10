@@ -5,9 +5,9 @@ const PORT = 3001;
 const MONGODB_URL = 'mongodb+srv://Ananddb:Anand2003@cluster0.hhg4k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 app.use(express.json());
 const cors = require('cors');
-const usersRouter = require('../router/register');
-const appointmentsRouter = require('../router/appointment');
-const doctorsPatientsRoutes = require("../router/doctor&patients")
+const usersRouter = require('./router/register');
+const appointmentsRouter = require('./router/appointment');
+const doctorsPatientsRoutes = require("./router/doctor&patients")
 
 
 app.use(
