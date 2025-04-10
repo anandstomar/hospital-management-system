@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001/api';
+const BASE_URL = 'https://hospital-management-system-xx81.onrender.com/api'; // Replace with your backend URL
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
